@@ -1,0 +1,218 @@
+*{
+    top: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.804);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 5% 12%;
+    
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo:hover{
+    color: rgb(76, 109, 241);
+    text-shadow: 0 0 rgb(42, 157, 202),
+                 0 0 rgb(7, 119, 247);
+    transform: scale(1.1);
+}
+
+.navbar a {
+    color: beige;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 35px;
+    transition: 0.3s;
+
+}
+ 
+span{
+    color: rgb(14, 201, 234);
+}
+
+.navbar:hover{
+    color: rgb(169, 227, 236);
+    text-shadow: 0 0 rgb(42, 157, 202),
+                 0 0 rgb(43, 7, 221);
+    transform: scale(1.1);
+}
+
+.navbar a:hover,
+.navbar a.active{
+    border-bottom: 3px solid rgb(43, 7, 221);
+}
+
+#name{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    min-height: fit-content;
+    padding: 100px 5%;
+    text-align: center;
+}
+
+.name-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+}
+.name-content h3{
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.name-content p{
+    font-size: 35px;
+    margin: 25px 0 30px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15% 8%;
+    gap: 10em;
+    background-color: rgb(2, 46, 77);;
+    box-sizing: border-box;
+    display:inline-block;
+}
+#about h2{
+    text-decoration: solid;
+    color: white; 
+    font-size: 45px;   
+}
+
+#about p{
+    color:white;
+    font: 1em sans-serif;
+    font-size: 20px;
+}
+#skills{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15% 8%;
+    gap: 10em;
+    background-color: rgb(246, 247, 247);
+}
+#skills h2 {
+    text-decoration: solid;
+    font-size: 45px; 
+    color: rgb(4, 63, 105);
+}
+#skills ul{
+    font: 1em sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(2, 46, 77);
+}
+#education {
+    display: flex;
+    justify-content: center;
+    padding: 15% 8%;
+    gap: 5em;
+    background-color: rgb(2, 46, 77);
+    color: white;
+} 
+#education h2 {
+    text-decoration: solid;
+    font-size: 45px; 
+}
+#education h3 {
+    text-decoration: solid;
+    font-size: 35px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+#education p{
+    font-size: 20px;
+    font-style: italic;
+}
+#project {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 15% 8%;
+    gap: 5em;
+    text-align: left;
+}
+#project h2 {
+    text-decoration: solid;
+    font-size: 45px; 
+    color: rgb(4, 63, 105);
+    gap: 1em;
+}
+        
+#project h3{
+    font: 1em sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(2, 46, 77);
+    font-weight: 700;
+}
+#project p{
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(2, 46, 77);
+}
+#certification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 8%;
+    gap: 10em;
+    background-color: rgb(2, 46, 77);
+    color: white;   
+}
+#workshop{
+    display: flex;
+    align-items: center;
+    padding: 5% 8%;
+    gap: 1em; 
+    background-color: rgb(2, 46, 77);
+    color: white;   
+}
+#workshop h2{
+    font-weight: 600;
+    font-size: 22px;
+} 
+#contact{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 10% 8%;
+    gap: 5em;
+    text-align: left;
+}
+#contact h2{
+    font-size: 35px;
+    color: rgb(24, 116, 181);
+    text-align: center;
+}
+#contact p{
+    font-size: 30px;
+    color: rgb(6, 42, 68);
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
